@@ -262,7 +262,7 @@ const Home = () => {
 
     //if presale hasnt started and the the current user is not the owneer of the contract
     else if (!presaleStarted) {
-      return <h2 className={styles.description}>Presale hasn't Started, check later!</h2>;
+      return <h2 className={styles.description}>Presale hasnt Started, check later!</h2>;
     }
 
     else if (presaleStarted && !presaleEnded) {
@@ -301,7 +301,7 @@ const Home = () => {
           {renderButton()}
         </div>
         <div>
-          <img className={styles.image} src="./0.svg" />
+          <img className={styles.image} src="./0.svg" alt="nft-dev-colection" />
         </div>
       </div>
 
