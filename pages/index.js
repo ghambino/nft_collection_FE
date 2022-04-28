@@ -150,6 +150,7 @@ const Home = () => {
       //need a signer since its a write transaction
       const signer = await getProviderOrSigner(true);
       //get contract instance
+      
       const nftContractInstance = new Contract(
         NFT_CONTRACT_ADDRESS,
         abi,
@@ -157,7 +158,8 @@ const Home = () => {
       );
       //call the presaleMint func on the contract instance
       const tx = await nftContractInstance.presaleMint({
-        value: utils.parseEther("0.02"),
+        value: utils.parseEther("0.01"),
+        
       });
       setLoading(true);
       await tx.wait();
