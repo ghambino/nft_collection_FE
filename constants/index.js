@@ -1,5 +1,5 @@
 //
-export const abi = [
+export const abi =  [
   {
     "inputs": [
       {
@@ -287,7 +287,7 @@ export const abi = [
   },
   {
     "inputs": [],
-    "name": "presaleEnd",
+    "name": "presaleEnded",
     "outputs": [
       {
         "internalType": "uint256",
@@ -582,5 +582,5 @@ export const abi = [
     "type": "receive"
   }
 ];
-export const NFT_CONTRACT_ADDRESS = "0xb4e96Ae4e0dBDC9933D4b356e162124E3F3c300D";
+export const NFT_CONTRACT_ADDRESS = "0x6Ae4D1ED3820B277E882B530FC0Ee7671d36Dbb2";
 
